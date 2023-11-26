@@ -1,9 +1,30 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Greeting from '../components/Greeting';
-const pageTitle = "Home Page";
+const pageTitle = "Rohan Kamath";
 ---
 <BaseLayout pageTitle={pageTitle}>
+  <div class="container">
+    <!-- <div class="profile-image">
+      <img src="/" alt="Profile Picture">
+    </div> -->
+    <div class="profile-content">
+      <h2>MSCS at Syracuse University</h2>
+      <p> 
+        I am a Master's student in Computer Science at Syracuse University. I am research assistant at the 
+        <a href="https://c4-lab.github.io/">C4 Lab</a> lead by Professor <a href="https://c4-lab.github.io/josh-introne/">Joshua Introne</a>.
+        Here I am working on the <a href="https://c4-lab.github.io/belief-landscape/"> Belief Landscape Framework</a>, where my contributions
+        is introducing a workflow to clean and processing feather files containing 75 million data points. I am currently researching and
+        implementing DynGEM, attempting to improve upon the existing framework for better results.
+      </p>
+      <p>
+        <b> I am currently looking for full time job opportunities for Fall 24, in the domains of software development and data science. </b>
+        Please feel free to download my resume. 
+      </p>
+    </div>
+</BaseLayout>
+
+<!-- <BaseLayout pageTitle={pageTitle}>
   <h2>My awesome blog subtitle</h2>
   <Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
-</BaseLayout>
+</BaseLayout> -->

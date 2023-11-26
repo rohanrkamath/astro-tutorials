@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+  }
+  
+  .profile-image img {
+    width: 30px; /* Set your desired width */
+    height: auto; /* This will maintain the aspect ratio of the image */
+    margin-right: 20px; /* Adjust the spacing between the image and text as needed */
+  }
+  
+  
+  .profile-content {
+    flex: 1;
+  }
+  
+  .profile-content h1, .profile-content h2 {
+    margin: 0;
+  }
+  
+  .profile-content p {
+    line-height: 1.6;
+  }
+  
